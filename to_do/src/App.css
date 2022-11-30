@@ -1,0 +1,18 @@
+span{
+  margin: 5px;
+}
+.sub{
+  border-style:ridge;
+  border-color: aqua;
+  color: black;
+}
+
+
+
+.main{
+  flex-direction: row;
+}
+
+.input{
+  margin-top: 20px;
+}
