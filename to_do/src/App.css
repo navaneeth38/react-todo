@@ -1,18 +1,31 @@
-span{
-  margin: 5px;
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+   
 }
 .sub{
-  border-style:ridge;
-  border-color: aqua;
-  color: black;
+  font-weight: bold;
+  color: silver;
+  margin-left: 10px;
+ 
 }
-
+.section{
+  display: flex;
+  justify-content: center;
+}
 
 
 .main{
-  flex-direction: row;
+  width: 75%;
+  background-color: purple;
+  border: 1px solid black;
 }
 
 .input{
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
